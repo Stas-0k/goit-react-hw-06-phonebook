@@ -2,6 +2,9 @@ import propTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import React, { useState } from 'react';
 import css from './contact-form.module.css';
+// import { useDispatch } from "react-redux";
+// import {addContact } from '../../redux/contactsSlice'
+
 
 function ContactForm({ onSubmit }) {
   const [name, setName] = useState('');
